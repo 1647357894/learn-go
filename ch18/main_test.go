@@ -12,7 +12,7 @@ import "testing"
 
 // 单元测试规则
 // 含有单元测试代码的 go 文件必须以 _test.go 结尾，Go 语言测试工具只认符合这个规则的文件。
-// 单元测试文件名 _test.go 前面的部分最好是被测试的函数所在的 go 文件的文件名，比如以上示例中单元测试文件叫 main_test.go，因为测试的 Fibonacci 函数在 main.go 文件里。
+// 单元测试文件名 _test.go 前面的部分最好是被测试的函数所在的 go 文件的文件名，比如以上示例中单元测试文件叫 main_test.go，因为测试的 Fibonacci 函数在 server_main.go 文件里。
 // 单元测试的函数名必须以 Test 开头，是可导出的、公开的函数。
 // 测试函数的签名必须接收一个指向 testing.T 类型的指针，并且不能返回任何值。
 // 函数名最好是 Test + 要测试的函数名，比如例子中是 TestFibonacci，表示测试的是 Fibonacci 这个函数。
